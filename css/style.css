@@ -83,6 +83,37 @@ ul li span {
   color: #090039;
 }
 
+/* Media queries */
+
+@media (min-width: 700px) {
+
+  body {
+    padding: 8rem;
+  }
+
+  main {
+    max-width: 1020px;
+    display: flex;
+    gap: 10rem;
+  }
+
+  main > div {
+    max-width: 484px;
+  }
+
+  ul li:first-child {
+    gap:6.6rem;
+  }
+
+  ul li {
+    gap:5.4rem;
+    max-width: 450px;
+    align-items: center;
+    margin-bottom: 3.5rem;
+  }
+  
+}
+
 
 
 
